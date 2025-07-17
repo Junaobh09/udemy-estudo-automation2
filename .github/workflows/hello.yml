@@ -1,13 +1,13 @@
 name: Hello Github Actions
 
 on:
- push:
+push:
  branches:
   - main
 
 jobs:
   say-hello:
-  runs-on: ubuntu-lastet
-steps:
-- name: Exibir mensagem no log
-run: echo " Github Action funcionando com sucesso!"
+  	runs-on: ubuntu-latest
+		steps:
+			- name: Exibir mensagem no log
+				run: echo " Github Action funcionando com sucesso!"
